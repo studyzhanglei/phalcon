@@ -85,15 +85,17 @@ class wxauth {
 				unset($_SESSION['wx_redirect']);
 				die('获取用户授权失败');
 			}
+
 			$oauth_url = $we_obj->getOauthRedirect($url,"wxbase",$scope);
+			// var_dump($oauth_url);die;
 			header('Location: ' . $oauth_url);
 		}
 	}
 }
 $options = array(
-		'token'=>'tokenaccesskey', //填写你设定的key
-		'appid'=>'wxdk1234567890', //填写高级调用功能的app id, 请在微信开发模式后台查询
-		'appsecret'=>'xxxxxxxxxxxxxxxxxxx', //填写高级调用功能的密钥
+		'token'=>'zhanglei', //填写你设定的key
+		'appid'=>'wx705d54c7844eb5bf', //填写高级调用功能的app id, 请在微信开发模式后台查询
+		'appsecret'=>'6e3009ecff1d25610bac30b88fcc05d8', //填写高级调用功能的密钥
 );
 $auth = new wxauth($options);
 var_dump($auth->wxuser);
