@@ -76,6 +76,7 @@ class wxauth {
 				$scope = 'snsapi_userinfo';
 			}
 			if ($scope=='snsapi_base') {
+				// var_dump($_SERVER['HTTP_HOST']);
 				$url = 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
 				$_SESSION['wx_redirect'] = $url;
 			} else {
@@ -85,9 +86,9 @@ class wxauth {
 				unset($_SESSION['wx_redirect']);
 				die('获取用户授权失败');
 			}
-
+var_dump($url);
 			$oauth_url = $we_obj->getOauthRedirect($url,"wxbase",$scope);
-			// var_dump($oauth_url);die;
+			var_dump($oauth_url);die;
 			header('Location: ' . $oauth_url);
 		}
 	}
