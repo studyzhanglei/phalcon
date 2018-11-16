@@ -15,7 +15,7 @@ class wxauth {
 	}
 	
 	public function wxoauth(){
-		$scope = 'snsapi_base';
+		$scope = 'snsapi_userinfo';
 		$code = isset($_GET['code'])?$_GET['code']:'';
 		$token_time = isset($_SESSION['token_time'])?$_SESSION['token_time']:0;
 		if(!$code && isset($_SESSION['open_id']) && isset($_SESSION['user_token']) && $token_time>time()-3600)
