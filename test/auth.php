@@ -2,6 +2,8 @@
 /**
  * 微信oAuth认证示例
  */
+ini_set('display_errors', 'on');
+error_reporting(0);
 include("../wechat.class.php");
 class wxauth {
 	private $options;
@@ -108,7 +110,7 @@ $auth = new wxauth($options);
 $accessToken 	= $we_obj->checkAuth();
 // var_dump($accessToken);
 
-$res 	= $we_obj-> getOauthAuth($accessToken, 'oBK9P1Zq8hkBdaQ2_WT3qkRArUIs');
+$res 	= $we_obj->getOauthAuth($accessToken, 'oBK9P1Zq8hkBdaQ2_WT3qkRArUIs');
 var_dump($res);
 // var_dump($auth->wxuser);
 
