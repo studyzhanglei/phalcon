@@ -2626,6 +2626,7 @@ class Wechat
 	 */
 	public function getOauthAuth($access_token,$openid){
 	    $result = $this->http_get(self::API_BASE_URL_PREFIX.self::OAUTH_AUTH_URL.'access_token='.$access_token.'&openid='.$openid);
+	    var_dump($result);
 	    if ($result)
 	    {
 	        $json = json_decode($result,true);
