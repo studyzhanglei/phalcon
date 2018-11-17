@@ -101,11 +101,14 @@ $options = array(
 );
 
 $we_obj = new Wechat($options);
+
+
+$auth = new wxauth($options);
+var_dump($auth->wxuser);
+
 $accessToken 	= $we_obj->checkAuth();
 var_dump($accessToken);
 
 $res 	= $we_obj-> getOauthAuth($accessToken, 'oBK9P1Zq8hkBdaQ2_WT3qkRArUIs');
 var_dump($res);
-exit();
-$auth = new wxauth($options);
-var_dump($auth->wxuser);
+
