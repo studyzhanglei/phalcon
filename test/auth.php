@@ -102,7 +102,7 @@ $options = array(
 		'appsecret'=>'6e3009ecff1d25610bac30b88fcc05d8', //填写高级调用功能的密钥
 );
 
-$we_obj = new Wechat($options);
+// $we_obj = new Wechat($options);
 
 
 $auth = new wxauth($options);
