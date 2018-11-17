@@ -15,7 +15,7 @@ class wxauth {
 	}
 	
 	public function wxoauth(){
-		$scope = 'snsapi_userinfo';
+		$scope = 'snsapi_base';
 		$code = isset($_GET['code'])?$_GET['code']:'';
 		$token_time = isset($_SESSION['token_time'])?$_SESSION['token_time']:0;
 		if(!$code && isset($_SESSION['open_id']) && isset($_SESSION['user_token']) && $token_time>time()-3600)
@@ -33,6 +33,7 @@ class wxauth {
 					'appid'=>$this->options["appid"], //填写高级调用功能的app id
 					'appsecret'=>$this->options["appsecret"] //填写高级调用功能的密钥
 			);
+
 			$we_obj = new Wechat($options);
 			if ($code) {
 				$json = $we_obj->getOauthAccessToken();
@@ -98,5 +99,13 @@ $options = array(
 		'appid'=>'wx705d54c7844eb5bf', //填写高级调用功能的app id, 请在微信开发模式后台查询
 		'appsecret'=>'6e3009ecff1d25610bac30b88fcc05d8', //填写高级调用功能的密钥
 );
+
+$we_obj = new Wechat($options);
+$accessToken 	= $we_obj->checkAuth();
+var_dump($accessToken);
+
+$res 	= $we_obj-> getOauthAuth($accessToken, 'oBK9P1Zq8hkBdaQ2_WT3qkRArUIs');
+var_dump($res);
+exit();
 $auth = new wxauth($options);
 var_dump($auth->wxuser);
