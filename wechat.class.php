@@ -2626,6 +2626,7 @@ class Wechat
 	 * @return boolean 是否有效
 	 */
 	public function getOauthAuth($access_token,$openid){
+		echo $self::API_BASE_URL_PREFIX.self::OAUTH_AUTH_URL.'access_token='.$access_token.'&openid='.$openid . '<br />';
 	    $result = $this->http_get(self::API_BASE_URL_PREFIX.self::OAUTH_AUTH_URL.'access_token='.$access_token.'&openid='.$openid);
 	    var_dump($result);
 	    if ($result)

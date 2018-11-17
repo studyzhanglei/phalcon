@@ -1,0 +1,112 @@
+2018-11-17 11:47:43,049 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2018-11-17 11:47:43,073 INFO o.a.j.JMeter: Loading user properties from: /usr/local/Cellar/jmeter/4.0/libexec/bin/user.properties
+2018-11-17 11:47:43,074 INFO o.a.j.JMeter: Loading system properties from: /usr/local/Cellar/jmeter/4.0/libexec/bin/system.properties
+2018-11-17 11:47:43,080 INFO o.a.j.JMeter: Copyright (c) 1998-2018 The Apache Software Foundation
+2018-11-17 11:47:43,080 INFO o.a.j.JMeter: Version 4.0 r1823414
+2018-11-17 11:47:43,080 INFO o.a.j.JMeter: java.version=1.8.0_181
+2018-11-17 11:47:43,080 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2018-11-17 11:47:43,080 INFO o.a.j.JMeter: os.name=Mac OS X
+2018-11-17 11:47:43,080 INFO o.a.j.JMeter: os.arch=x86_64
+2018-11-17 11:47:43,080 INFO o.a.j.JMeter: os.version=10.14.1
+2018-11-17 11:47:43,080 INFO o.a.j.JMeter: file.encoding=UTF-8
+2018-11-17 11:47:43,080 INFO o.a.j.JMeter: Max memory     =1073741824
+2018-11-17 11:47:43,080 INFO o.a.j.JMeter: Available Processors =12
+2018-11-17 11:47:43,085 INFO o.a.j.JMeter: Default Locale=English (EN)
+2018-11-17 11:47:43,086 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2018-11-17 11:47:43,086 INFO o.a.j.JMeter: JMeterHome=/usr/local/Cellar/jmeter/4.0/libexec
+2018-11-17 11:47:43,086 INFO o.a.j.JMeter: user.dir  =/Users/zhanglei/project/www/wechat
+2018-11-17 11:47:43,086 INFO o.a.j.JMeter: PWD       =/Users/zhanglei/project/www/wechat
+2018-11-17 11:47:43,096 INFO o.a.j.JMeter: IP: 192.168.0.232 Name: zhangleideMBP FullName: zhangleidembp
+2018-11-17 11:47:45,274 INFO o.a.j.g.a.LookAndFeelCommand: Installing Darcula LAF
+2018-11-17 11:47:45,295 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: com.bulenkov.darcula.DarculaLaf [Darcula]
+2018-11-17 11:47:45,295 INFO o.a.j.JMeter: Setting LAF to: com.bulenkov.darcula.DarculaLaf
+2018-11-17 11:47:45,384 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2018-11-17 11:47:45,819 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2018-11-17 11:47:45,820 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2018-11-17 11:47:47,271 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-11-17 11:47:47,272 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-11-17 11:47:47,272 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-11-17 11:47:47,272 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-11-17 11:47:47,273 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2018-11-17 11:47:47,273 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2018-11-17 11:47:47,642 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2018-11-17 11:47:47,642 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /usr/local/Cellar/jmeter/4.0/libexec/bin/proxyserver.jks
+2018-11-17 11:47:47,743 INFO o.a.j.s.FileServer: Default base='/Users/zhanglei/project/www/wechat'
+2018-11-17 11:47:48,019 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2018-11-17 11:47:48,020 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2018-11-17 11:47:48,020 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2018-11-17 11:47:48,020 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2018-11-17 11:47:52,345 INFO o.a.j.g.a.t.TemplateManager: Reading templates from: /usr/local/Cellar/jmeter/4.0/libexec/bin/templates/templates.xml
+2018-11-17 11:48:29,706 INFO o.a.j.g.a.Load: Loading file: /Users/zhanglei/study/python/HTTP请求.jmx
+2018-11-17 11:48:29,707 INFO o.a.j.s.FileServer: Set new base='/Users/zhanglei/study/python'
+2018-11-17 11:48:29,714 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2018-11-17 11:48:29,734 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2018-11-17 11:48:29,735 INFO o.a.j.s.SaveService: Using SaveService properties version 4.0
+2018-11-17 11:48:29,738 INFO o.a.j.s.SaveService: Loading file: /Users/zhanglei/study/python/HTTP请求.jmx
+2018-11-17 11:48:29,833 INFO o.a.j.s.FileServer: Set new base='/Users/zhanglei/study/python'
+2018-11-17 11:49:04,577 INFO o.a.j.u.JMeterUtils: Setting Locale to zh_CN
+2018-11-17 11:52:01,301 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2018-11-17 11:52:01,302 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-11-17 11:52:01,302 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-11-17 11:52:01,306 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2018-11-17 11:52:01,467 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2018-11-17 11:52:01,468 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2018-11-17 11:52:01,468 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2018-11-17 11:52:01,468 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2018-11-17 11:52:01,470 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2018-11-17 11:52:01,471 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2018-11-17 11:52:01,472 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2018-11-17 11:52:01,489 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = zhangleideMBP
+2018-11-17 11:52:01,494 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2018-11-17 11:52:01,583 INFO o.a.j.p.h.s.LazySchemeSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2018-11-17 11:52:01,587 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2018-11-17 11:52:01,588 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2018-11-17 11:52:01,790 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2018-11-17 11:52:01,791 INFO o.a.j.u.SSLManager: KeyStore created OK
+2018-11-17 11:52:01,791 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2018-11-17 11:52:02,108 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2018-11-17 11:52:02,108 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2018-11-17 11:52:02,110 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2018-11-17 11:52:02,110 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2018-11-17 11:52:06,668 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2018-11-17 11:52:06,668 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-11-17 11:52:06,669 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2018-11-17 11:52:06,780 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2018-11-17 11:52:06,781 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2018-11-17 11:52:06,781 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2018-11-17 11:52:06,781 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2018-11-17 11:52:06,782 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2018-11-17 11:52:06,782 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2018-11-17 11:52:06,783 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2018-11-17 11:52:06,908 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2018-11-17 11:52:06,908 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2018-11-17 11:52:06,909 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2018-11-17 11:52:06,909 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2018-11-17 11:53:12,312 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2018-11-17 11:53:12,313 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-11-17 11:53:12,313 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2018-11-17 11:53:12,427 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2018-11-17 11:53:12,428 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2018-11-17 11:53:12,428 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2018-11-17 11:53:12,428 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2018-11-17 11:53:12,428 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2018-11-17 11:53:12,428 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2018-11-17 11:53:12,428 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2018-11-17 11:53:12,429 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2018-11-17 11:53:12,429 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2018-11-17 11:53:12,429 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2018-11-17 11:53:12,429 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2018-11-17 11:53:20,478 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2018-11-17 11:53:20,478 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-11-17 11:53:20,480 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2018-11-17 11:53:20,582 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2018-11-17 11:53:20,582 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2018-11-17 11:53:20,582 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2018-11-17 11:53:20,582 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2018-11-17 11:53:20,583 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2018-11-17 11:53:20,583 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2018-11-17 11:53:20,584 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2018-11-17 11:53:20,686 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2018-11-17 11:53:20,686 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2018-11-17 11:53:20,687 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2018-11-17 11:53:20,687 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
