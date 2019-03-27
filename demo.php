@@ -1,8 +1,8 @@
 <?php
 include "wechat.class.php";
 $options = array(
-		'token'=>'zhanglei', //填写你设定的key
-        'encodingaeskey'=>'encodingaeskey', //填写加密用的EncodingAESKey，如接口为明文模式可忽略
+		'token'				=> 'zhanglei', //填写你设定的key
+        'encodingaeskey'	=> 'encodingaeskey', //填写加密用的EncodingAESKey，如接口为明文模式可忽略
         'appid'=>'wx705d54c7844eb5bf', //填写高级调用功能的app id, 请在微信开发模式后台查询
 		'appsecret'=>'6e3009ecff1d25610bac30b88fcc05d8' //填写高级调用功能的密钥
 	);
