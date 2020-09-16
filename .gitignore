@@ -1,4 +1,10 @@
-/nbproject/private/
-.buildpath
-/pages/
-/my/
+migrations/
+.phalcon/
+vendor/
+.env
+runtime
+.idea
+.phpstorm.meta.php
+.DS_Store
+cache
+composer.lock
